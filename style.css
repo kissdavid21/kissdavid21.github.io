@@ -167,6 +167,16 @@ h2 {
         text-align: center;
         margin: auto;
     }
+    #hero-section {
+        background: url("img/hero_img_mobile.jpg") no-repeat center/cover;
+        z-index: 1;
+        position: relative;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+    }
 }
 
 @media screen and (min-width: 500px) {
@@ -210,5 +220,15 @@ h2 {
         width: 70%;
         text-align: center;
         margin: auto;
+    }
+    #hero-section {
+        background: url("img/IMG_8590-scaled.jpeg") no-repeat center/cover;
+        z-index: 1;
+        position: relative;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
     }
 }
