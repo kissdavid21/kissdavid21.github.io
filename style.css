@@ -130,12 +130,11 @@
         margin: auto;
     }
     #hero-section {
-        background: url("img/hero_img_mobile.jpg") no-repeat center/cover;
+        background: url("img/hero_img_mobile.jpg") no-repeat center;
         z-index: 1;
         position: relative;
-        height: 100%;
         background-position: center;
-        background-size: cover;
+
         height: 100vh;
         background-attachment: fixed;
     }
