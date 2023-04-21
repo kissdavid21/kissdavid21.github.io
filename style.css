@@ -1,0 +1,210 @@
+#hero-section {
+    background: url("img/IMG_8590-scaled.jpeg") no-repeat center/cover;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#hero-section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.0);
+    z-index: -1;
+    backdrop-filter: blur(4px);
+}
+
+
+
+.stripe-1 {
+    background-color: rgb(255, 210, 30);
+    color: rgb(245, 245, 245);
+    width: 50%;
+    text-align: center;
+    padding: 5px 0;
+
+}
+
+.stripe-2 {
+    background-color: rgb(9, 165, 218);
+    color: rgb(245, 245, 245);
+    width: 70%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+h2 {
+    font-size: 3vw;
+}
+
+#dos_logo {
+    float: right;
+    width: 20%;
+}
+
+#logo {
+    float: left;
+}
+
+.blue_text {
+    color: rgb(9, 165, 218);
+}
+
+.blue_border {
+    border: 3px solid rgb(51, 51, 51);
+    width: 80%;
+}
+
+.width {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.yellow_card {
+    height: 100%;
+
+}
+
+.yellow_card h4 {
+    color: rgb(255, 210, 30);
+}
+
+.yellow_card p {
+    color: rgba(41, 41, 41);
+}
+
+#carouselExampleCaptions {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.carousel-item {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    height: 0;
+    padding-bottom: 80%;
+    /* this sets carousel aspect ratio (4:1 here) */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.blue_border ul {
+    list-style-position: inside;
+}
+
+.yellow_card ul{
+    list-style-position: inside;
+}
+.black_text {
+    color: rgba(0, 0, 0);
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    h1,
+    .h1 {
+        font-size: 9vw;
+        font-weight: normal;
+    }
+
+    h2,
+    .h2 {
+        font-size: 8vw;
+        font-weight: normal;
+    }
+
+    h3,
+    .h3 {
+        font-size: 6vw;
+        font-weight: normal;
+    }
+
+    h4,
+    .h4 {
+        font-size: 5vw;
+        font-weight: normal;
+    }
+
+    h5,
+    .h5 {
+        font-size: 4vw;
+        font-weight: normal;
+    }
+
+    h6,
+    .h6 {
+        font-size: 3vw;
+        font-weight: normal;
+    }
+}
+
+@media screen and (min-width: 500px) {
+
+    h1,
+    .h1 {
+        font-size: 45px;
+        font-weight: normal;
+    }
+
+    h2,
+    .h2 {
+        font-size: 40px;
+        font-weight: normal;
+    }
+
+    h3,
+    .h3 {
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    h4,
+    .h4 {
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    h5,
+    .h5 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    h6,
+    .h6 {
+        font-size: 15px;
+        font-weight: normal;
+    }
+}
