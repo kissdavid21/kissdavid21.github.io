@@ -63,12 +63,6 @@ h2 {
     width: 80%;
 }
 
-.width {
-    width: 70%;
-    text-align: center;
-    margin: auto;
-}
-
 .yellow_card {
     height: 100%;
 
@@ -168,6 +162,11 @@ h2 {
         font-size: 3vw;
         font-weight: normal;
     }
+    .width {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 500px) {
@@ -206,5 +205,10 @@ h2 {
     .h6 {
         font-size: 15px;
         font-weight: normal;
+    }
+    .width {
+        width: 70%;
+        text-align: center;
+        margin: auto;
     }
 }
