@@ -1,14 +1,3 @@
-#hero-section {
-    background: url("img/IMG_8590-scaled.jpeg") no-repeat center/cover;
-    z-index: 1;
-    position: relative;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    background-attachment: fixed;
-}
-
 #hero-section:before {
     content: '';
     position: absolute;
@@ -19,30 +8,6 @@
     background: rgba(0, 0, 0, 0.0);
     z-index: -1;
     backdrop-filter: blur(4px);
-}
-
-
-
-.stripe-1 {
-    background-color: rgb(255, 210, 30);
-    color: rgb(245, 245, 245);
-    width: 50%;
-    text-align: center;
-    padding: 5px 0;
-
-}
-
-.stripe-2 {
-    background-color: rgb(9, 165, 218);
-    color: rgb(245, 245, 245);
-    width: 70%;
-    text-align: center;
-    padding: 5px 0;
-}
-
-
-h2 {
-    font-size: 3vw;
 }
 
 #dos_logo {
@@ -99,7 +64,6 @@ h2 {
 .carousel-inner {
     height: 0;
     padding-bottom: 80%;
-    /* this sets carousel aspect ratio (4:1 here) */
 }
 
 .carousel-caption {
@@ -121,8 +85,6 @@ h2 {
 .italic {
     font-style: italic;
 }
-
-
 
 
 @media screen and (max-width: 500px) {
@@ -177,6 +139,22 @@ h2 {
         height: 100vh;
         background-attachment: fixed;
     }
+    .stripe-1 {
+        background-color: rgb(255, 210, 30);
+        color: rgb(245, 245, 245);
+        width: 75%;
+        text-align: center;
+        padding: 5px 0;
+    
+    }
+    
+    .stripe-2 {
+        background-color: rgb(9, 165, 218);
+        color: rgb(245, 245, 245);
+        width: 85%;
+        text-align: center;
+        padding: 5px 0;
+    }
 }
 
 @media screen and (min-width: 500px) {
@@ -230,5 +208,21 @@ h2 {
         background-size: cover;
         height: 100vh;
         background-attachment: fixed;
+    }
+    .stripe-1 {
+        background-color: rgb(255, 210, 30);
+        color: rgb(245, 245, 245);
+        width: 50%;
+        text-align: center;
+        padding: 5px 0;
+    
+    }
+    
+    .stripe-2 {
+        background-color: rgb(9, 165, 218);
+        color: rgb(245, 245, 245);
+        width: 70%;
+        text-align: center;
+        padding: 5px 0;
     }
 }
